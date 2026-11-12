@@ -11,6 +11,7 @@ export const profile = {
   email: '',
   github: '',
   linkedin: '',
+  facebook: 'https://www.facebook.com/profile.php?id=61595390782972',
   resume: '',
   intro: 'I want to create games, build useful apps, and turn exciting ideas into experiences people can enjoy.',
   description: 'I’m an Information Technology student specializing in Business Analytics at Laguna University. I enjoy exploring programming, experimenting with new technologies, and learning how to make ideas work. My goal is to grow as a developer, especially in game development and application development, while continuously improving my skills through hands-on projects.',
@@ -29,6 +30,7 @@ export const projects: Project[] = [
     tags: ['Flutter', 'Dart', 'Supabase', 'Reservations'],
     category: 'Web application',
     image: 'lasfamilias',
+    demo: 'https://las-familias.com/',
   },
 ]
 export const skillGroups = [
