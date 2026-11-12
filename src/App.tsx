@@ -8,10 +8,7 @@ const sections = [
 ]
 
 function ProjectArt({ type }: { type: Project['image'] }) {
-  if (type === 'lasfamilias') return <div className="art art-lasfamilias">
-    <div className="resort-sun"/><div className="resort-hill resort-hill-back"/><div className="resort-hill resort-hill-front"/>
-    <div className="resort-preview"><div className="resort-preview-top"><span>✳ &nbsp; LAS FAMILIAS</span><span>RESORT</span></div><div className="resort-preview-content"><span className="resort-kicker">YOUR NEXT ESCAPE</span><strong>Relax. Refresh.<br/>Reconnect.</strong><span className="resort-mini-pill">Explore your stay ↗</span></div></div>
-  </div>
+  if (type === 'lasfamilias') return <div className="art art-lasfamilias"><img src="/las-familias-portfolio.jpg" alt="Las Familias resort website homepage" className="project-cover-image" loading="lazy" /></div>
   return null
 }
 
