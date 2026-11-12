@@ -3,7 +3,7 @@ export const profile = {
   name: 'Ivan B. Tuazon',
   firstName: 'Ivan',
   initials: 'IT',
-  image: '/profile-temp.png',
+  image: '/profile-temp.jpg',
   role: 'IT Student | Aspiring Web Developer',
   location: 'Philippines',
   availability: 'Learning, building & exploring new opportunities',
