@@ -4,6 +4,7 @@ export const profile = {
   firstName: 'Ivan',
   initials: 'IT',
   image: '/profile-temp.jpg',
+  darkImage: '/profile-dark.jpg',
   role: 'IT Student | Aspiring Web Developer',
   location: 'Philippines',
   availability: 'Learning, building & exploring new opportunities',
